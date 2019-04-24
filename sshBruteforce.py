@@ -1,4 +1,4 @@
-import pxssh
+from pexpect import pxssh
 import optparse
 import threading
 import time
