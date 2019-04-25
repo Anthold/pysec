@@ -44,7 +44,7 @@ def main():
     host = options.tgtHost
     passwdFile = options.passwdFile
     user = options.user
-    if host == None or user == None or passwdFile == None:
+    if host is None or user is None or passwdFile is None:
         print(parser.usage)
         exit(0)
 

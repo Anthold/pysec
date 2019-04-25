@@ -1,4 +1,13 @@
 {
-    "python.linting.pylintEnabled": true,
-    "python.pythonPath": "/usr/bin/python3"
+    "workbench.editor.enablePreview": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": false,
+    "autoDocstring.docstringFormat": "sphinx",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.sideBar.location": "left"
 }

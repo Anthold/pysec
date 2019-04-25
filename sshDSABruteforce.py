@@ -50,7 +50,7 @@ def main():
     host = options.tgtHost
     passDir = options.passdir
     user = options.user
-    if host == None or user == None or passDir == None:
+    if host is None or user is None or passDir is None:
         print(parser.usage)
         exit(0)
 
